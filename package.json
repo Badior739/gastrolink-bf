@@ -1,0 +1,20 @@
+{
+  "name": "gastrolink-api",
+  "version": "1.0.0",
+  "description": "API backend de GastroLink BF - plateforme de mise en relation gastronomique et de livraison au Burkina Faso",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node --watch src/server.js",
+    "test": "node --test"
+  },
+  "license": "UNLICENSED",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "morgan": "^1.10.0",
+    "mysql2": "^3.11.0",
+    "socket.io": "^4.7.5"
+  }
+}
